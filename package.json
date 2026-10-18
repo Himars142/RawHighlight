@@ -5,7 +5,10 @@
     "main": "index.js",
     "scripts": {
         "build": "vite build",
-        "dev": "vite build --watch"
+        "dev": "vite build --watch",
+        "lint": "biome lint ./src",
+        "format": "biome format --write ./src",
+        "check": "biome check --write ./src"
     },
     "repository": {
         "type": "git",
