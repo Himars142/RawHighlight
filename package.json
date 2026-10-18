@@ -1,25 +1,27 @@
 {
-	"name": "rawhighlight",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Himars142/RawHighlight.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"type": "commonjs",
-	"bugs": {
-		"url": "https://github.com/Himars142/RawHighlight/issues"
-	},
-	"homepage": "https://github.com/Himars142/RawHighlight#readme",
-	"devDependencies": {
-		"@types/chrome": "^0.3.5",
-		"typescript": "^7.0.2"
-	}
+    "name": "rawhighlight",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite build --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Himars142/RawHighlight.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/Himars142/RawHighlight/issues"
+    },
+    "homepage": "https://github.com/Himars142/RawHighlight#readme",
+    "devDependencies": {
+        "@types/chrome": "^0.3.5",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.4"
+    }
 }
